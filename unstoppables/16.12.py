@@ -65,3 +65,12 @@
 #     for index in range(len(pos)):
 #         res.append(  (pos[index].lower() *(index + 1)).capitalize())
 #     return "-".join(res)
+
+
+n = abs(int(input())) 
+count = 0
+for x in range(1 , n+1):
+    if(n % x == 0):
+        count += 1 
+
+print(count)

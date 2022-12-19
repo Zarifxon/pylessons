@@ -49,9 +49,15 @@
 
 
 
-from math import ceil, floor
-import keyboard 
-keyboard.hook_key()
-print(cop(64))
+# from math import ceil, floor
+# import keyboard 
+# keyboard.hook_key()
+# print(cop(64))
+
+
+# import time
+
+# for I in range(3):
+#     time.sleep(60 * 60 * 24 * 365)
 
 
